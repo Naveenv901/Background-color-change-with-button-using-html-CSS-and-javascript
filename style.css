@@ -1,0 +1,19 @@
+h1{
+    display: inline;
+   
+}
+.blue{
+    background-color: blue;
+}
+button{
+    margin-top: 10px;
+}
+.csed{
+    /* display: flex; */
+    text-align: center;
+}
+#cs{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}

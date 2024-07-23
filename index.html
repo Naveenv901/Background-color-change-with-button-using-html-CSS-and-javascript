@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="csed">
+    <div id="cs">    
+        <h1 >Background Color : <h1 id="par">White</h1></h1><br>
+   <button onclick="change()">Click here</button>
+   
+</div>
+</div>
+    <script>
+        let count=0;
+           function change(){
+        const ans=document.querySelector('body')
+        if(count==4){
+            count=0
+        }
+        let arr=["blue" ,"green","Yellow","orange","grey"]
+        const an=document.getElementById('par').innerHTML=arr[count]
+        ans.style.backgroundColor=arr[count];
+        count++
+           }
+    </script>
+</body>
+</html>
